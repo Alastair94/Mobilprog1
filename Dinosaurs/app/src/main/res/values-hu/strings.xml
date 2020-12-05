@@ -3,9 +3,9 @@
     <string name="app_name">Dinoszauruszok</string>
     <string name="name">Név:</string>
     <string name="diet">Táplálkozás:</string>
-    <string name="weight">Súly:</string>
-    <string name="height">Magasság:</string>
-    <string name="length">Hossz:</string>
+    <string name="weight">Súly(kg):</string>
+    <string name="height">Magasság(m):</string>
+    <string name="length">Hossz(m):</string>
     <string name="welcome">Hello Jurassic World!</string>
     <string name="btn_dino_list">Dinoszauruszok kilistázása</string>
     <string name="btn_form">Dinoszauruszok regisztrálása</string>
