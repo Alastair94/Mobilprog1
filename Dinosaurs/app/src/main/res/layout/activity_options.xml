@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity">
+
+    <Button
+        android:id="@+id/btn_examples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:onClick="addExamples"
+        android:text="@string/btn_addExamples"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_deleteRows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteRows"
+        android:text="@string/btn_deleteAll"
+        app:layout_constraintEnd_toEndOf="@+id/btn_examples"
+        app:layout_constraintStart_toStartOf="@+id/btn_examples"
+        app:layout_constraintTop_toBottomOf="@+id/btn_examples" />
+
+    <Button
+        android:id="@+id/btn_dropDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dropDatabase"
+        android:text="@string/btn_dropDb"
+        app:layout_constraintEnd_toEndOf="@+id/btn_deleteRows"
+        app:layout_constraintStart_toStartOf="@+id/btn_deleteRows"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deleteRows" />
+</androidx.constraintlayout.widget.ConstraintLayout>

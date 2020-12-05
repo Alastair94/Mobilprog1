@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinoPageFragment">
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainImageView"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/dietTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/diet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+    <TextView
+        android:id="@+id/weightTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/weight"
+        app:layout_constraintStart_toStartOf="@+id/dietTxt"
+        app:layout_constraintTop_toBottomOf="@+id/dietTxt" />
+
+    <TextView
+        android:id="@+id/heightTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/height"
+        app:layout_constraintStart_toStartOf="@+id/weightTxt"
+        app:layout_constraintTop_toBottomOf="@+id/weightTxt" />
+
+    <TextView
+        android:id="@+id/lengthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/length"
+        app:layout_constraintStart_toStartOf="@+id/heightTxt"
+        app:layout_constraintTop_toBottomOf="@+id/heightTxt" />
+
+    <TextView
+        android:id="@+id/dataDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/dietTxt"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+    <TextView
+        android:id="@+id/dataWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/dataDiet"
+        app:layout_constraintTop_toBottomOf="@+id/dataDiet" />
+
+    <TextView
+        android:id="@+id/dataHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/dataWeight"
+        app:layout_constraintTop_toBottomOf="@+id/dataWeight" />
+
+    <TextView
+        android:id="@+id/dataLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/dataHeight"
+        app:layout_constraintTop_toBottomOf="@+id/dataHeight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

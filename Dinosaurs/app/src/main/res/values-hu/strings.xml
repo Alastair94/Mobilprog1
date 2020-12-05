@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dinoszauruszok</string>
+    <string name="name">Név:</string>
+    <string name="diet">Táplálkozás:</string>
+    <string name="weight">Súly:</string>
+    <string name="height">Magasság:</string>
+    <string name="length">Hossz:</string>
+    <string name="welcome">Hello Jurassic World!</string>
+    <string name="btn_dino_list">Dinoszauruszok kilistázása</string>
+    <string name="btn_form">Dinoszauruszok regisztrálása</string>
+    <string name="herbivore">Növényevő</string>
+    <string name="carnivore">Húsevő</string>
+    <string name="btn_upload">Feltöltés</string>
+    <string name="btn_delete">Törlés</string>
+    <string name="lbl_register">Regisztráció</string>
+    <string name="lbl_data">Adatok</string>
+    <string name="lbl_list">Dinoszaurusz lista</string>
+    <string name="language_header">Nyelvek</string>
+    <string name="selected_language">Kiválasztott nyelv</string>
+    <string name="lbl_settings">Beállítások</string>
+    <string name="english">Angol</string>
+    <string name="hungarian">Magyar</string>
+    <string name="options">Opciók</string>
+    <string name="btn_dropDb">Adatbázis törlése</string>
+    <string name="btn_deleteAll">Összes sor törlése</string>
+    <string name="btn_addExamples">Példák hozzáadása</string>
+</resources>
